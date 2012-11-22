@@ -5,4 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [overtone "0.7.1"]
+                 [bytebuffer "0.2.0"]
                  [serial-port "1.1.2"]])
