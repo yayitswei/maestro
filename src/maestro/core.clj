@@ -1,6 +1,5 @@
 (ns maestro.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(def portname "/dev/cu.usbmodemfa131")
+(def port (open portname 9600))
+(on-n-bytes port 4 #(println %))
