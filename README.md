@@ -1,10 +1,6 @@
 # maestro
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+Turns a arduino into a music controller. Written in Overtone/Clojure. Current instruments are dubstep and monotron.
 
 ## License
 
